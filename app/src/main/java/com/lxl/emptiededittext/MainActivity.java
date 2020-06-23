@@ -13,6 +13,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         ConstraintLayout constraintLayout = findViewById(R.id.cl);
         EmptiedEditText emptiedEditText = findViewById(R.id.ee);
-        emptiedEditText.layout(constraintLayout,0xffb1b1b1);
+        emptiedEditText.layout(constraintLayout,0xffFFF1F1);
     }
 }
