@@ -17,9 +17,7 @@ import com.lxl.emptiededittext2.R;
 
 /**
  * 带删除按钮的EditText 适配银行卡输入
- */
-
-/**
+ *
  * 日期:2020/6/22
  * <p>
  * 作者:lxl
@@ -58,7 +56,6 @@ public class EmptiedEditText extends EditText {
     /**
      * 最大长度
      *
-     * @param maxLength
      */
     public void setMaxLength(int maxLength) {
         this.maxLength = maxLength;
@@ -68,7 +65,6 @@ public class EmptiedEditText extends EditText {
     /**
      * 银行卡类型
      *
-     * @param bankNoType
      */
     public void setBankNoType(boolean bankNoType) {
         isBankNoType = bankNoType;
@@ -109,7 +105,7 @@ public class EmptiedEditText extends EditText {
 
     private void init(Context context, AttributeSet attrs) {
         // 获取自定义属性
-        drawableEmptied = getResources().getDrawable(R.mipmap.icon_delete);
+        drawableEmptied = getResources().getDrawable(R.drawable.icon_delete);
         updateIconClear();
 
         // 设置TextWatcher用于更新清除按钮显示状态
@@ -213,8 +209,6 @@ public class EmptiedEditText extends EditText {
     /**
      * 发送editText的长度符合要求的状态
      *
-     * @param s
-     * @param maxLength
      */
     private void sendLengthState(Editable s, int maxLength) {
         int etLength = s.length();
