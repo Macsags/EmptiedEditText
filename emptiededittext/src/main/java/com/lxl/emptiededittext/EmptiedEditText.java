@@ -109,7 +109,7 @@ public class EmptiedEditText extends EditText {
 
     private void init(Context context, AttributeSet attrs) {
         // 获取自定义属性
-        drawableEmptied = getResources().getDrawable(R.drawable.icon_delete);
+        drawableEmptied = getResources().getDrawable(R.mipmap.icon_delete);
         updateIconClear();
 
         // 设置TextWatcher用于更新清除按钮显示状态
