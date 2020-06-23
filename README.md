@@ -26,28 +26,29 @@ leiningen
 Add it in your root build.gradle at the end of repositories:
 
 
-
-        (```Java
 allprojects {
 		repositories {
 			...
 			maven { url 'https://www.jitpack.io' }
 		}
-	} ```)	
+	} 	
 	
 	
 Step 2. Add the dependency
 
 
-        (```Java
+   
 allprojects {
 	dependencies {
 	        implementation 'com.github.Macsags:EmptiedEditText:Tag'
 	      }
 	}
-    ```)
 	
-   
+(```Java
+public static void main(String[] args){}
+```)
+
+
   请关注
   -------
   [我的博客](https://blog.csdn.net/qq_32368129)
