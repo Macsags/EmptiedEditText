@@ -5,17 +5,17 @@ EmptiedEditText
 -------
 一个可清空删除的EditText</br>
 附带必选项功能</br>
-
+****
 ![](https://github.com/Macsags/EmptiedEditText/blob/master/ohho.gif)
 </br>
-</br>
+****
 日志
 -------
 2020/6/22
 * 第一次上传
 * 删除按钮改为16px
 * 必选项背景色可修改
-
+****
 如何使用How to：
 -------
 To get a Git project into your build:
@@ -46,7 +46,15 @@ allprojects {
 	      } 
 	} 
 ```	
-
+****
+使用方法：
+-------
+```
+        ConstraintLayout constraintLayout = findViewById(R.id.cl);//外层布局
+        EmptiedEditText emptiedEditText = findViewById(R.id.ee);//清空输入框
+        emptiedEditText.layout(constraintLayout,0xffFFF1F1);//设置外层布局变颜色，动态更改颜色
+```
+****
 请关注
 -------
   [我的博客](https://blog.csdn.net/qq_32368129)
