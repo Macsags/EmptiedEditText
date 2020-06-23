@@ -8,6 +8,7 @@ EmptiedEditText
 
 ![](https://github.com/Macsags/EmptiedEditText/blob/master/ohho.gif)
 </br>
+</br>
 日志
 -------
 2020/6/22
