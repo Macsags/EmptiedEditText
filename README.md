@@ -23,15 +23,14 @@ gradle
 maven
 sbt
 leiningen
-Add it in your root build.gradle at the end of repositories:
+Add it in your root build.gradle at the end of repositories:/n
 (```Java
 allprojects {
 		repositories {
 			...
 			maven { url 'https://www.jitpack.io' }
 		}
-	}
-```)
+	}```)
 	
 Step 2. Add the dependency
 (```Java
@@ -39,8 +38,7 @@ allprojects {
 	dependencies {
 	        implementation 'com.github.Macsags:EmptiedEditText:Tag'
 	      }
-	}
-```)
+	}```)
 	
    
   请关注
