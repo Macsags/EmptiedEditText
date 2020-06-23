@@ -4,8 +4,10 @@ EmptiedEditText
 简介：
 -------
 一个可清空删除的EditText</br>
-附带必选项功能
+附带必选项功能</br>
 
+https://github.com/Macsags/EmptiedEditText/blob/master/ohho.gif
+</br>
 日志
 -------
 2020/6/22
