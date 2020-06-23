@@ -13,9 +13,8 @@ EmptiedEditText
 * 删除按钮改为16px
 * 必选项背景色可修改
 
-如何使用：
+如何使用How to：
 -------
-How to
 To get a Git project into your build:
 
 Step 1. Add the JitPack repository to your build file
