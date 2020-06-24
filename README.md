@@ -6,6 +6,8 @@ EmptiedEditText
 一个可清空删除的EditText</br>
 附带必选项功能</br>
 ****
+示例：
+-------
 ![](https://github.com/Macsags/EmptiedEditText/blob/master/ohho.gif)
 </br>
 ****
