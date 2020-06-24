@@ -9,6 +9,8 @@ EmptiedEditText
 示例：
 -------
 ![](https://github.com/Macsags/EmptiedEditText/blob/master/ohho.gif)
+
+[图片地址](https://github.com/Macsags/EmptiedEditText/blob/master/ohho.gif)
 </br>
 ****
 日志
