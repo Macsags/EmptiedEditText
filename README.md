@@ -46,7 +46,7 @@ Step 2. Add the dependency<br>
 ```
 allprojects { 
 	dependencies {
-	        implementation 'com.github.Macsags:EmptiedEditText:1.0.2'
+	        implementation 'com.github.Macsags:EmptiedEditText:1.0.1'
 	      } 
 	} 
 ```	
